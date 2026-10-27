@@ -1,0 +1,11 @@
+# VRanks configuration
+profanity-filter:
+  # Set to false to disable rank-name filtering entirely.
+  enabled: true
+  # A rank name is rejected if it contains any of these words.
+  # Matching ignores case, spaces, and punctuation.
+  # Replace these placeholders with your own list.
+  blocked-words:
+    - badword
+    - offensive
+    - slur
